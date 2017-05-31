@@ -111,8 +111,7 @@ TCP/IP分层（4层） ：网络接口层、网际层、运输层、应用层。
 1）session保存在服务器，客户端不知道其中的信息；cookie保存在客户端，服务器能够知道其中的信息。 <br>
 2）session中保存的是对象，cookie中保存的是字符串。 <br>
 3）session不能区分路径，同一个用户在访问一个网站期间，所有的session在任何一个地方都可以访问到。而cookie中如果设置 了路径参数，那么同一个网站中不同路径下的cookie互相是访问不到的。 <br>
-4）session默认需要借助cookie才能正常工作。如果客户端完全禁止cookie，session，这种方法将失效。但可以URL重写。<br> 
-5 ）session在用户会话结束后就会关闭了，但cookie因为保存在客户端，可以长期保存 <br>
+4）session默认需要借助cookie才能正常工作。如果客户端完全禁止cookie，session，这种方法将失效。但可以URL重写。<br> 5 ）session在用户会话结束后就会关闭了，但cookie因为保存在客户端，可以长期保存 <br>
 6） cookie:是服务端向客户端写入的小的片段信息。cookie信息保存在服务器缓存区，不会在客户端显现。当你第一次登陆一个网站，服务器向你的机器写得片段信息。你可以在Internet选项中找到存放cookie的文件夹。如果不删除，cookie就一直在这个文件夹中。<br>
 7）cookie不是很安全，别人可以分析存放在本地的COOKIE并进行COOKIE欺骗，考虑到安全应当使用session。<br>
 8）单个cookie保存的数据不能超过4K，很多浏览器都限制一个站点最多保存20个cookie。<br>
