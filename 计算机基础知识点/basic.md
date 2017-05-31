@@ -124,4 +124,4 @@ TCP的可靠性是通过发送序号（Seq）和确认序号（ACK）来实现�
 ## 15、TCP 的三次握手和四次挥手
 
 TCP报文格式图：<br>
-![image]()
+![image](https://github.com/say-hello-user/knowledge/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9/tcp.png)
