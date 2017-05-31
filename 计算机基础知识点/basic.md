@@ -81,3 +81,13 @@ OSPF协议 ：底层是迪杰斯特拉算法，是链路状态路由选择协议
 RARP协议：<br>
 RARP是逆地址解析协议，作用是完成硬件地址到IP地址的映射，主要用于无盘工作站，因为给无盘工作站配置的IP地址不能保存。<br>
 工作流程：在网络中配置一台RARP服务器，里面保存着IP地址和MAC地址的映射关系，当无盘工作站启动后，就封装一个RARP数据包，里面有其MAC地址，然后广播到网络上去，当服务器收到请求包后，就查找对应的MAC地址的IP地址装入响应报文中发回给请求者。因为需要广播请求报文，因此RARP只能用于具有广播能力的网络。<br>
+
+## 11、TCP/IP 中，每一层对应的协议
+
+应用层 ：FTP（文件传送协议）、Telenet（远程登录协议）、DNS（域名解析协议）、SMTP（邮件传送协议），POP3协议（邮局协议），HTTP协议。<br>
+表示层：JPEG、MPEG、ASII<br>
+会话层：NFS、SQL、NETBIOS、RPC<br>
+传输层：TCP、UDP、SPX<br>
+网络层：IP、ICMP、ARP、RARP、OSPF、IPX、RIP、IGRP、 （路由器）<br>
+数据链路：PPP、FR、HDLC、VLAN、MAC （网桥，交换机）<br>
+物理层：RJ45、CLOCK、IEEE802.3 （中继器，集线器）<br>
